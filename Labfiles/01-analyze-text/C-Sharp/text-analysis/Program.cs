@@ -53,6 +53,15 @@ namespace text_analysis
 
 
                     // Get key phrases
+                    KeyPhraseCollection phrases = aiClient.ExtractKeyPhrases(text);
+                    if (phrases.Count > 0)
+                    {
+                        Console.WriteLine("\nKey Phrases:");
+                        foreach(string phrase in phrases)
+                        {
+                            Console.WriteLine($"\t{phrase}");
+                        }
+                    }
 
 
                     // Get entities
