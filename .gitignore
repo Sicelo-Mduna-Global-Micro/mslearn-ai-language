@@ -1,3 +1,8 @@
 
 /Labfiles/01-analyze-text/C-Sharp/text-analysis/bin/Debug
 /Labfiles/01-analyze-text/C-Sharp/text-analysis/bin/Debug
+*.dll
+*.exe
+*.pdb
+*.exe
+*.dll
