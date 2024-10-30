@@ -3,7 +3,10 @@ using System.IO;
 using System.Text;
 using Microsoft.Extensions.Configuration;
 
-// Import namespaces
+
+ // import namespaces
+using Azure;
+using Azure.AI.Language.QuestionAnswering;
 
 
 namespace qna_app
