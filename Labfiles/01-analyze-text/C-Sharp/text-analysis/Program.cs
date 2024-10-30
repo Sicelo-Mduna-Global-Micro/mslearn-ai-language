@@ -4,6 +4,8 @@ using System.Text;
 using Microsoft.Extensions.Configuration;
 
 // Import namespaces
+ using Azure;
+ using Azure.AI.TextAnalytics;
 
 
 namespace text_analysis
