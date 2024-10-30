@@ -26,6 +26,9 @@ namespace qna_app
                 string deploymentName = configuration["QADeploymentName"];
 
                 // Create client using endpoint and key
+                AzureKeyCredential credentials = new AzureKeyCredential(aiSvcKey);
+                Uri endpoint = new Uri(aiSvcEndpoint);
+                QuestionAnsweringClient aiClient = new QuestionAnsweringClient(endpoint, credentials);
 
 
                 // Submit a question and display the answer
