@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("qna-app")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a60dd1e52ca696654305b8659d38f8a0ba1037c0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ec3b9e244e722350272421e819c1217097028ac")]
 [assembly: System.Reflection.AssemblyProductAttribute("qna-app")]
 [assembly: System.Reflection.AssemblyTitleAttribute("qna-app")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
